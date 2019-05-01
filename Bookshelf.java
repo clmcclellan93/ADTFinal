@@ -54,7 +54,7 @@ public class Bookshelf {
 	 * only currently allows fiction, nonfiction, or fantasy
 	 */
 	public void setGenre(String genre) {
-		if (genre.equalsIgnoreCase("fantasy") || genre.equalsIgnoreCase("fiction") || genre.equalsIgnoreCase("nonfiction")) {
+		if (genre.equalsIgnoreCase("fantasy") || genre.equalsIgnoreCase("scifi") || genre.equalsIgnoreCase("fiction") || genre.equalsIgnoreCase("nonfiction")) {
 			this.genre = genre.toLowerCase();
 		}
 		else throw new IllegalArgumentException("Invalid Genre");
